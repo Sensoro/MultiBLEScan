@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635529DE1ADB6BAD00764D12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635529DD1ADB6BAD00764D12 /* main.m */; };
+		635529E11ADB6BAD00764D12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 635529E01ADB6BAD00764D12 /* AppDelegate.m */; };
+		635529E41ADB6BAD00764D12 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635529E31ADB6BAD00764D12 /* MasterViewController.m */; };
+		635529EA1ADB6BAD00764D12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635529E81ADB6BAD00764D12 /* Main.storyboard */; };
+		635529EC1ADB6BAD00764D12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635529EB1ADB6BAD00764D12 /* Images.xcassets */; };
+		635529EF1ADB6BAD00764D12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635529ED1ADB6BAD00764D12 /* LaunchScreen.xib */; };
+		635529FB1ADB6BAD00764D12 /* MultiBLEScan_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635529FA1ADB6BAD00764D12 /* MultiBLEScan_OCTests.m */; };
+		63552A061ADB6E0500764D12 /* SENBLEScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 63552A051ADB6E0500764D12 /* SENBLEScanner.m */; };
+		63552A0D1ADB9E3E00764D12 /* SBKDBeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63552A0B1ADB9E3E00764D12 /* SBKDBeaconCell.m */; };
+		63552A0E1ADB9E3E00764D12 /* SBKDBeaconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63552A0C1ADB9E3E00764D12 /* SBKDBeaconCell.xib */; };
+		63552A101ADBCA6900764D12 /* SensoroBeaconKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63552A0F1ADBCA6900764D12 /* SensoroBeaconKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635529F51ADB6BAD00764D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635529D01ADB6BAD00764D12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635529D71ADB6BAD00764D12;
+			remoteInfo = "MultiBLEScan-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635529D81ADB6BAD00764D12 /* MultiBLEScan-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiBLEScan-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635529DC1ADB6BAD00764D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635529DD1ADB6BAD00764D12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635529DF1ADB6BAD00764D12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		635529E01ADB6BAD00764D12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		635529E21ADB6BAD00764D12 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		635529E31ADB6BAD00764D12 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		635529E91ADB6BAD00764D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635529EB1ADB6BAD00764D12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		635529EE1ADB6BAD00764D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		635529F41ADB6BAD00764D12 /* MultiBLEScan-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MultiBLEScan-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635529F91ADB6BAD00764D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635529FA1ADB6BAD00764D12 /* MultiBLEScan_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiBLEScan_OCTests.m; sourceTree = "<group>"; };
+		63552A041ADB6E0500764D12 /* SENBLEScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENBLEScanner.h; sourceTree = "<group>"; };
+		63552A051ADB6E0500764D12 /* SENBLEScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENBLEScanner.m; sourceTree = "<group>"; };
+		63552A0A1ADB9E3E00764D12 /* SBKDBeaconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKDBeaconCell.h; sourceTree = "<group>"; };
+		63552A0B1ADB9E3E00764D12 /* SBKDBeaconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBKDBeaconCell.m; sourceTree = "<group>"; };
+		63552A0C1ADB9E3E00764D12 /* SBKDBeaconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBKDBeaconCell.xib; sourceTree = "<group>"; };
+		63552A0F1ADBCA6900764D12 /* SensoroBeaconKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensoroBeaconKit.framework; path = ../../SensoroBeaconKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635529D51ADB6BAD00764D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63552A101ADBCA6900764D12 /* SensoroBeaconKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635529F11ADB6BAD00764D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635529CF1ADB6BAD00764D12 = {
+			isa = PBXGroup;
+			children = (
+				635529DA1ADB6BAD00764D12 /* MultiBLEScan-OC */,
+				635529F71ADB6BAD00764D12 /* MultiBLEScan-OCTests */,
+				635529D91ADB6BAD00764D12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635529D91ADB6BAD00764D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635529D81ADB6BAD00764D12 /* MultiBLEScan-OC.app */,
+				635529F41ADB6BAD00764D12 /* MultiBLEScan-OCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635529DA1ADB6BAD00764D12 /* MultiBLEScan-OC */ = {
+			isa = PBXGroup;
+			children = (
+				63552A091ADB9E3100764D12 /* Cell */,
+				635529DF1ADB6BAD00764D12 /* AppDelegate.h */,
+				635529E01ADB6BAD00764D12 /* AppDelegate.m */,
+				635529E21ADB6BAD00764D12 /* MasterViewController.h */,
+				635529E31ADB6BAD00764D12 /* MasterViewController.m */,
+				63552A041ADB6E0500764D12 /* SENBLEScanner.h */,
+				63552A051ADB6E0500764D12 /* SENBLEScanner.m */,
+				635529E81ADB6BAD00764D12 /* Main.storyboard */,
+				635529EB1ADB6BAD00764D12 /* Images.xcassets */,
+				635529ED1ADB6BAD00764D12 /* LaunchScreen.xib */,
+				63552A0F1ADBCA6900764D12 /* SensoroBeaconKit.framework */,
+				635529DB1ADB6BAD00764D12 /* Supporting Files */,
+			);
+			path = "MultiBLEScan-OC";
+			sourceTree = "<group>";
+		};
+		635529DB1ADB6BAD00764D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635529DC1ADB6BAD00764D12 /* Info.plist */,
+				635529DD1ADB6BAD00764D12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635529F71ADB6BAD00764D12 /* MultiBLEScan-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				635529FA1ADB6BAD00764D12 /* MultiBLEScan_OCTests.m */,
+				635529F81ADB6BAD00764D12 /* Supporting Files */,
+			);
+			path = "MultiBLEScan-OCTests";
+			sourceTree = "<group>";
+		};
+		635529F81ADB6BAD00764D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635529F91ADB6BAD00764D12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63552A091ADB9E3100764D12 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63552A0A1ADB9E3E00764D12 /* SBKDBeaconCell.h */,
+				63552A0B1ADB9E3E00764D12 /* SBKDBeaconCell.m */,
+				63552A0C1ADB9E3E00764D12 /* SBKDBeaconCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635529D71ADB6BAD00764D12 /* MultiBLEScan-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635529FE1ADB6BAD00764D12 /* Build configuration list for PBXNativeTarget "MultiBLEScan-OC" */;
+			buildPhases = (
+				635529D41ADB6BAD00764D12 /* Sources */,
+				635529D51ADB6BAD00764D12 /* Frameworks */,
+				635529D61ADB6BAD00764D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiBLEScan-OC";
+			productName = "MultiBLEScan-OC";
+			productReference = 635529D81ADB6BAD00764D12 /* MultiBLEScan-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635529F31ADB6BAD00764D12 /* MultiBLEScan-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63552A011ADB6BAD00764D12 /* Build configuration list for PBXNativeTarget "MultiBLEScan-OCTests" */;
+			buildPhases = (
+				635529F01ADB6BAD00764D12 /* Sources */,
+				635529F11ADB6BAD00764D12 /* Frameworks */,
+				635529F21ADB6BAD00764D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635529F61ADB6BAD00764D12 /* PBXTargetDependency */,
+			);
+			name = "MultiBLEScan-OCTests";
+			productName = "MultiBLEScan-OCTests";
+			productReference = 635529F41ADB6BAD00764D12 /* MultiBLEScan-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635529D01ADB6BAD00764D12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Sensoro;
+				TargetAttributes = {
+					635529D71ADB6BAD00764D12 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					635529F31ADB6BAD00764D12 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 635529D71ADB6BAD00764D12;
+					};
+				};
+			};
+			buildConfigurationList = 635529D31ADB6BAD00764D12 /* Build configuration list for PBXProject "MultiBLEScan-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635529CF1ADB6BAD00764D12;
+			productRefGroup = 635529D91ADB6BAD00764D12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635529D71ADB6BAD00764D12 /* MultiBLEScan-OC */,
+				635529F31ADB6BAD00764D12 /* MultiBLEScan-OCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635529D61ADB6BAD00764D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635529EA1ADB6BAD00764D12 /* Main.storyboard in Resources */,
+				635529EF1ADB6BAD00764D12 /* LaunchScreen.xib in Resources */,
+				635529EC1ADB6BAD00764D12 /* Images.xcassets in Resources */,
+				63552A0E1ADB9E3E00764D12 /* SBKDBeaconCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635529F21ADB6BAD00764D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635529D41ADB6BAD00764D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635529E11ADB6BAD00764D12 /* AppDelegate.m in Sources */,
+				635529E41ADB6BAD00764D12 /* MasterViewController.m in Sources */,
+				63552A061ADB6E0500764D12 /* SENBLEScanner.m in Sources */,
+				635529DE1ADB6BAD00764D12 /* main.m in Sources */,
+				63552A0D1ADB9E3E00764D12 /* SBKDBeaconCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635529F01ADB6BAD00764D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635529FB1ADB6BAD00764D12 /* MultiBLEScan_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635529F61ADB6BAD00764D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635529D71ADB6BAD00764D12 /* MultiBLEScan-OC */;
+			targetProxy = 635529F51ADB6BAD00764D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635529E81ADB6BAD00764D12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635529E91ADB6BAD00764D12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		635529ED1ADB6BAD00764D12 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635529EE1ADB6BAD00764D12 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635529FC1ADB6BAD00764D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		635529FD1ADB6BAD00764D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635529FF1ADB6BAD00764D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/david/codes/Sensoro/iOS-DEMO",
+					/Users/david/codes/Sensoro/Demo/MultiBLEScan,
+				);
+				INFOPLIST_FILE = "MultiBLEScan-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63552A001ADB6BAD00764D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/david/codes/Sensoro/iOS-DEMO",
+					/Users/david/codes/Sensoro/Demo/MultiBLEScan,
+				);
+				INFOPLIST_FILE = "MultiBLEScan-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63552A021ADB6BAD00764D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiBLEScan-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiBLEScan-OC.app/MultiBLEScan-OC";
+			};
+			name = Debug;
+		};
+		63552A031ADB6BAD00764D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiBLEScan-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiBLEScan-OC.app/MultiBLEScan-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635529D31ADB6BAD00764D12 /* Build configuration list for PBXProject "MultiBLEScan-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635529FC1ADB6BAD00764D12 /* Debug */,
+				635529FD1ADB6BAD00764D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635529FE1ADB6BAD00764D12 /* Build configuration list for PBXNativeTarget "MultiBLEScan-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635529FF1ADB6BAD00764D12 /* Debug */,
+				63552A001ADB6BAD00764D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63552A011ADB6BAD00764D12 /* Build configuration list for PBXNativeTarget "MultiBLEScan-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63552A021ADB6BAD00764D12 /* Debug */,
+				63552A031ADB6BAD00764D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635529D01ADB6BAD00764D12 /* Project object */;
+}
